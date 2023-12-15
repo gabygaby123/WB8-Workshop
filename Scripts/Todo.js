@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', async function () {
     const apiUrl = 'http://localhost:8083/api/categories';
     const dropdown = document.getElementById('dropdown');
