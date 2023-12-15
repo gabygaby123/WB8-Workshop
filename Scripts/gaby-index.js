@@ -6,8 +6,16 @@ document.addEventListener("DOMContentLoaded", () => {
     loadToDo()
 })
 
-
 function loadToDo(){
     toDoService.getAll()
-                .then()
+                .then(users => {
+                    displayUsers(users)
+                })
+}
+
+function displayUsers(){
+    document.getElementById("dropdown").innerHTML = ""
+    users.forEach(user => {
+        displayUsers(user)
+    });
 }

@@ -3,6 +3,6 @@ class ToDoService{
 }
 
     // GET
-async getAll(){
+//async  getAll(){
     return fetch(this.baseUrl).then(response => response.json())
-}
+//}
