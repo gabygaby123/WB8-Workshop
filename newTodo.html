@@ -39,8 +39,17 @@
             <label for="exampleTextarea" class="form-label mt-4">Example textarea</label>
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
         </div>
+        <div class="form-group">
+            <label for="priority">Priority:</label>
+            <select class="form-control" id="priority" required>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+            </select>
+        </div>
 
         <input type="date" value="2017-06-01" />
+        <button type="submit" class="btn btn-primary">Add ToDo</button>
     </form>
 
 </main>
